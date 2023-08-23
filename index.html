@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>memory-game</title>
+</head>
+
+<body>
+    
+    <div class="splash-screen">
+        <span class="btn">start</span>
+        <div class="popUp">
+            <h3>type your name</h3>
+            <input type="text" placeholder="type your name">
+            <span>start game</span>
+        </div>
+    </div>
+    <div class="pop-window">game-over loser !!!</p></div>
+    <h1>memory-game</h1>
+    <div class="timer"><span>time : </span><span class="number">60</span> sec</div>
+    <div class="containner">
+        <div class="con-box">
+            <div class="name">
+                name  : <span class="ns"></span>
+            </div>
+            <div class="tries">
+                Traies : <span class="try">0</span>
+            </div>
+        </div>
+    </div>
+   
+    <div class="container-game-box">
+        <div class="box" data-compare="1">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/1.png" alt="first-img">
+            </div>
+        </div>
+        <div class="box" data-compare="1">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/1.png" alt="first-img">
+            </div>
+        </div>
+        <div class="box" data-compare="2">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/2.png" alt="second-img">
+            </div>
+        </div>
+        <div class="box" data-compare="2">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/2.png" alt="second-img">
+            </div>
+        </div>
+        <div class="box" data-compare="3">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/3.png" alt="third-img">
+            </div>
+        </div>
+        <div class="box" data-compare="3">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/3.png" alt="third-img">
+            </div>
+        </div>
+        <div class="box" data-compare="4">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/4.png" alt="fourth-img">
+            </div>
+        </div>
+        <div class="box" data-compare="4">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/4.png" alt="fourth-img">
+            </div>
+        </div>
+        <div class="box" data-compare="5">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/5.png" alt="fifth-img">
+            </div>
+        </div>
+        <div class="box" data-compare="5">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/5.png" alt="fifth-img">
+            </div>
+        </div>
+        <div class="box" data-compare="6">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/6.png" alt="six-img">
+            </div>
+        </div>
+        <div class="box" data-compare="6">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/6.png" alt="six-img">
+            </div>
+        </div>
+        <div class="box" data-compare="7">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/7.png" alt="seventh-img">
+            </div>
+        </div>
+        <div class="box" data-compare="7">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/7.png" alt="seventh-img">
+            </div>
+        </div>
+        <div class="box" data-compare="8">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/8.png" alt="eight-img">
+            </div>
+        </div>
+        <div class="box" data-compare="8">
+            <div class="face front">!</div>
+            <div class="face back">
+                <img src="images/8.png" alt="eight-img">
+            </div>
+        </div>
+    </div>
+    <audio id="start" src="sounds/start.mp3" preload="auto"></audio>
+    <audio id="true" src="sounds/true.mp3" preload="auto"></audio>
+    <audio id="false" src="sounds/false.mp3" preload="auto"></audio>
+    <audio id="over" src="sounds/over.mp3" preload="auto"></audio>
+    <audio id="congratulation" src="sounds/congratulation.mp3" preload="auto"></audio>
+    <div class="leader">
+    <span class="name">name</span>
+    <span class="score">score Max : 80</span>
+    </div>
+    <div class="congr">
+        <p>Gongratulation !!!</p>
+        <span>your score = 80</span>
+    </div>
+    <span class="up">up</span>
+    <script src="main.js"></script>
+</body>
+
+</html>
